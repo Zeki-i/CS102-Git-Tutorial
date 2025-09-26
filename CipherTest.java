@@ -10,6 +10,7 @@ public class CipherTest {
         
         String text1_encrypted = cipher.encrypt(text1);
         String text1_decrypted = cipher.decrypt(text1_encrypted);
+        
 
         System.out.println("Original Text: " + text1);
         System.out.println("Encrypted Text: " + text1_encrypted);
